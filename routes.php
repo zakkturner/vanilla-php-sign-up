@@ -1,7 +1,10 @@
 <?php
 
 use Http\Controllers\HomeController;
+use Core\Router;
 
-return [
-    "/" => HomeController::index(),
-];
+
+$router = new Router();
+
+
+$router->get("/", 'index.php');
