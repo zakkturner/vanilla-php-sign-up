@@ -14,4 +14,9 @@ class Validator
         // Validator::email('joe@example.com');
         return  filter_var($value, FILTER_VALIDATE_EMAIL);
     }
+
+    public static function agreement($value)
+    {
+        return $value;
+    }
 }
