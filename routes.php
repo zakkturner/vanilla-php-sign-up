@@ -8,3 +8,4 @@ $router = new Router();
 
 
 $router->get("/", 'index.php');
+$router->post("/email-list", 'email/store.php');

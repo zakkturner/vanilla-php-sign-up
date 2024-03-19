@@ -1,11 +1,13 @@
 <?php
 
 return [
-    "database" => [
-        "dbname" => "",
-        "port" => "",
-        "charset" => "",
 
+    'database' => [
 
-    ]
+        'host' => 'localhost',
+        'port' => '3307',
+        'dbname' => 'email_list',
+        'charset' => 'utf8mb4'
+    ],
+
 ];
